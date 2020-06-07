@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-color: #e5e5e5;
+    font-size: 15px;
+}
+
+#conteiner {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* Logo */
+.logo {
+    padding-left: 60px;
+    margin-bottom: 12px;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+.logo > a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444444;
+}
+.logo > a:hover {
+    color: #193d95;
+}
+
+.logoDefinition {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* BTNs */
+.btns li {
+    /*padding-right: 10px;*/
+    list-style: none outside none;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.btns a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 2px;
+    font-size: 1.33333333em;
+    opacity: .5;
+}
+
+.btns a > i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*.btnSearch {*/
+/*    position: absolute;*/
+/*    right: 40px;*/
+/*    top: 10px;*/
+/*    text-decoration: none;*/
+/*    padding: 8px;*/
+/*    padding-top: 2px;*/
+/*    font-size: 1.33333333em;*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+/*.btn {*/
+/*    display: inline-block;*/
+/*    padding: 10px;*/
+/*    padding-top: 18px;*/
+/*}*/
+/*.btn > a > i {*/
+
+/*    line-height: .75em;*/
+/*}*/
+
+
