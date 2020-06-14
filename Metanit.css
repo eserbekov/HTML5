@@ -124,20 +124,55 @@ div {
 }
 
 
-#list1 {
+#content_right {
     background: #f0f0f0;
     width: 15.5%;
+    border-top: 1px solid #ccc;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+
 }
 
 details {
     padding: 3px 0 2px 16px;
+    line-height: 150%;
+
 }
 
 details li {
     padding: 3px 0 2px 7px;
 }
 
+details li a {
+    text-decoration: none;
+    font-size: 8.5pt;
+    color: black;
+
+}
+
+summary {
+    font-size: 8.5pt;
+}
+summary a {
+    text-decoration: none;
+    color: black;
+}
+
+summary:hover, summary a:hover {
+    cursor: pointer;
+    color: #00008b;
+}
+
+
 
 main {
     background: #f7f7fa;
+    /*border-left: 1px solid #ccc;*/
+    /*border-right: 1px solid #ccc;*/
+    display: flex;
+}
+
+#content_center {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
 }
