@@ -176,3 +176,27 @@ main {
     border-right: 1px solid #ccc;
 
 }
+
+
+
+.code {
+    display: flex;
+
+    border: solid black .5px;
+    margin: 20px;
+}
+.numbers {
+    border-right: solid green 2px;
+}
+.code pre {
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    padding: 2px;
+}
+.number {
+    padding-right: 4px;
+}
+.content > pre {
+    padding-left: 4px;
+}
